@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="#" class="logo" style="color:#00eaff; font-family: 'Dancing Script', cursive; letter-spacing: 2px; font-size: 3.2rem;">Abhirup</a>
+
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav>
+            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#projects-section"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+            <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+            <a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+        </nav>
+        
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="main1.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm <span style="color:#8b41e6;">Abhirup</span></h1>
+            <h3 class="typing-text">I'm a <span id="typing"></span></h3>
+            <p>Hello! I'm Abhirup Bag, a college student with a passion for software development.</p> 
+               <p> I enjoy learning new technologies and creating solutions that make a difference. </p>
+                <p>In my free time, I love drawing, painting, and exploring origami.</p>
+            <div class="social-icons">
+                <a href="http://www.linkedin.com/in/abhirup-bag-734744282" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AbhiRik" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/rik_abhirup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com/@abhirup_vlogger?si=xgt7IvcGfr6m-R3V" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a href="mailto:abhirupbagiembca2026@gmail.com?subject=Mail%20me%20:%20abhirupbagiembca2026@gmail.com" class="btn">Mail me</a>
+            <a href="portfolio_cv.pdf" class="btn" id="download-cv" download>Download CV</a>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects-section">
+        <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Projects</h2>
+        <div class="projects-container">
+            <div class="project-card glass scroll-animate">
+                <div class="project-img"><img src="brain.jpeg" alt="MindPal" /></div>
+                <div class="project-content">
+                    <div class="project-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>MINDPAL</h3>
+                    <p>A Student's mental well-being web app, to help them manage stress.</p>
+                    <a href="https://abhirik.github.io/MindPal/" class="btn project-link">USE now <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass scroll-animate">
+                <div class="project-img"><img src="Blockchain.png" alt="DE Chain" /></div>
+                <div class="project-content">
+                    <div class="project-icon"><i class="fa-solid fa-link"></i></div>
+                    <h3>DE Chain</h3>
+                    <p>A private Blockchain Based Digital Evidence Management System.</p>
+                    <a href="Blockchain_RESEARCH PAPER.pdf" download class="btn project-link">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass scroll-animate">
+                <div class="project-img"><img src="python.jpg" alt="Python Projects" /></div>
+                <div class="project-content">
+                    <div class="project-icon"><i class="fa-brands fa-python"></i></div>
+                    <h3>Python Projects</h3>
+                    <p>Several projects like ATM Password Manager, TO DO List, Calculator, etc.</p>
+                    <a href="https://github.com/AbhiRik" class="btn project-link">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass scroll-animate">
+                <div class="project-img"><img src="snake.png" alt="Snake Game" /></div>
+                <div class="project-content">
+                    <div class="project-icon"><i class="fa-solid fa-gamepad"></i></div>
+                    <h3>Snake Game</h3>
+                    <p>The classic snake game with retro vibes,</p> 
+                    <p>made using PY game.</p>
+                    <a href="https://abhirik.github.io/Snake-Game/" target="_blank" class="btn project-link">Play now <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="section-title"><i class="fa-solid fa-code"></i> Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-brands fa-python"></i></span>
+                <div class="skill-title">Python</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="80"></div>
+                    <span class="progress-label">80%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-solid fa-code"></i></span>
+                <div class="skill-title">C / C++</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="70"></div>
+                    <span class="progress-label">70%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-brands fa-java"></i></span>
+                <div class="skill-title">Java</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="70"></div>
+                    <span class="progress-label">70%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-brands fa-html5"></i></span>
+                <div class="skill-title">HTML</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="90"></div>
+                    <span class="progress-label">90%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-brands fa-css3-alt"></i></span>
+                <div class="skill-title">CSS</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="90"></div>
+                    <span class="progress-label">90%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-brands fa-js"></i></span>
+                <div class="skill-title">JavaScript</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="80"></div>
+                    <span class="progress-label">80%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-solid fa-database"></i></span>
+                <div class="skill-title">SQL</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="70"></div>
+                    <span class="progress-label">70%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-solid fa-robot"></i></span>
+                <div class="skill-title">AI/ML</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="60"></div>
+                    <span class="progress-label">60%</span>
+                </div>
+            </div>
+            <div class="skill-progress-card scroll-animate">
+                <span class="skill-badge"><i class="fa-solid fa-palette"></i></span>
+                <div class="skill-title">Creative Design</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" data-progress="90"></div>
+                    <span class="progress-label">90%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+        <div class="education-container">
+            <div class="edu-card glass scroll-animate">
+                <div class="edu-img"><img src="GHS.jpg" alt="Gospel Home School" /></div>
+                <div class="edu-title">Class 10 (ICSE)</div>
+                <div class="edu-details">
+                    Gospel Home School, Rishra, 2021<br>ICSE Board<br>Score: 92%
+                </div>
+            </div>
+            <div class="edu-card glass scroll-animate">
+                <div class="edu-img"><img src="va.png" alt="Serampore Vivekananda Academy" /></div>
+                <div class="edu-title">Class 12 (CBSE)</div>
+                <div class="edu-details">
+                    Serampore Vivekananda Academy, 2023<br>CBSE Board<br>Score: 73%
+                </div>
+            </div>
+            <div class="edu-card glass scroll-animate">
+                <div class="edu-img"><img src="iem.png" alt="Institute of Engineering & Management" /></div>
+                <div class="edu-title">College</div>
+                <div class="edu-details">
+                    Institute of Engineering & Management, Kolkata<br>Bachelor of Computer Applications (BCA)<br>2023 - Present<br>GPA: 9.2
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Contact</h2>
+        <div class="contact-letter-box scroll-animate">
+            <div class="letter-box-header">
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <span>Let's Connect!</span>
+            </div>
+            <div class="letter-box-content">
+                <div class="contact-row">
+                    <i class="fa-brands fa-google"></i>
+                    <span class="contact-label">Mail:</span>
+                    <a href="mailto:abhirupbagiembca2026@gmail.com">abhirupbagiembca2026@gmail.com</a>
+                </div>
+                <div class="contact-row">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="contact-label">LinkedIn:</span>
+                    <a href="http://www.linkedin.com/in/abhirup-bag-734744282" target="_blank">abhirup-bag-734744282</a>
+                </div>
+                <div class="contact-row">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span class="contact-label">Instagram:</span>
+                    <a href="https://www.instagram.com/rik_abhirup/" target="_blank">@rik_abhirup</a>
+                </div>
+                <div class="contact-row">
+                    <i class="fa-solid fa-phone"></i>
+                    <span class="contact-label">Phone:</span>
+                    <a href="tel:+917439284844">+91 7439284844</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <span class="footer-copyright">
+                <i class="fa-regular fa-copyright"></i> 2025 <span style="color:#00eaff;">Abhirup Bag</span>. All Rights Reserved.
+            </span>
+            <div>
+                <a href="http://www.linkedin.com/in/abhirup-bag-734744282" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AbhiRik" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:abhirupbagiembca2026@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Bubble -->
+    <div id="chatbot-bubble" class="chatbot-bubble">
+        <i class="fa-solid fa-message"></i>
+        ASK ME
+    </div>
+    <div id="chatbot-window" class="chatbot-window" style="display:none;">
+        <div class="chatbot-header">Ask Me <span id="chatbot-close">&times;</span></div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="chatbot-input-row">
+            <input type="text" id="chatbot-input" placeholder="Type your question..." autocomplete="off" />
+            <button id="chatbot-send"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <!-- End Chatbot Bubble -->
+    
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+    <script src="section-fade.js"></script>
+    <script>
+// Close mobile nav panel when a nav link is clicked (for mobile only)
+document.addEventListener('DOMContentLoaded', function() {
+    const nav = document.querySelector('nav');
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 995 && nav.classList.contains('active')) {
+                nav.classList.remove('active');
+                if (hamburger) hamburger.classList.remove('active');
+            }
+        });
+    });
+
+    // Download CV button color change after download
+    const downloadBtn = document.getElementById('download-cv');
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', function() {
+            setTimeout(function() {
+                downloadBtn.style.background = 'linear-gradient(120deg, #b74b4b 0%, #ff003c 100%)';
+                downloadBtn.style.color = '#fff';
+                downloadBtn.style.boxShadow = '0 0 25px #b74b4b';
+                downloadBtn.style.borderColor = '#ff003c';
+            }, 300);
+        });
+    }
+});
+</script>
+
+</body>
+
+</html>
